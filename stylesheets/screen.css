@@ -114,7 +114,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 670px;
+  /*width: 670px; //removed by @CodeIter*/
   margin: 0 auto;
 }
 
@@ -269,7 +269,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 20px 82px 0;
+  /*padding: 20px 82px 0; removed y @CodeIter*/
   min-height:185px;
 }
 
