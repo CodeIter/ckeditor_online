@@ -28,4 +28,6 @@ CKEDITOR.editorConfig = function( config ) {
 		{ name: 'about', groups: [ 'about' ] }
 	];
   
+  config.extraPlugins = 'qrc,quran';
+  
 };
