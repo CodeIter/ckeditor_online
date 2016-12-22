@@ -41,7 +41,7 @@
         <!-- <h3>
 <a id="welcome-to -github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 <code>gh-pages</code> -->
-        <div id="editor">
+        <textarea name="editor" id="editor" rows="10">
           <h1 dir="rtl" style="text-align:center"><span style="font-size:36px"><strong><em><u><span style="color:#0000cd">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span></u></em></strong></span></h1>
 
 <p dir="rtl" style="text-align:center"><span style="color:#ff0000"><span style="font-size:20px"><span class="ayat"><span style="direction:rtl; text-align:right"><span class="aya">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</span> <span class="aya-number number-2">(2)</span><span class="aya">الرَّحْمَٰنِ الرَّحِيمِ</span> <span class="aya-number number-3">(3)</span></span></span></span></span></p>
@@ -56,7 +56,7 @@
 
 <p dir="rtl" style="text-align:justify">&nbsp;</p>
 
-        </div>
+        </textarea>
 
       </section>
 
@@ -84,7 +84,6 @@
       });
     </script>
     <script src="ckeditor.js"></script>
-    <script src="samples/js/sample.js"></script>
-    <script>initSample();</script>
+    <script>CKEDITOR.replace("editor");</script>
   </body>
 </html>
